@@ -17,7 +17,7 @@ const LinkRenderer = ({ ...children }) => <Link {...children} />;
 
 const About = () => (
   <Main
-    title="A propos de moi"
+    title="À propos de moi"
     description="En savoir plus sur Salim NEDJAM"
   >
     <article className="post markdown" id="about">

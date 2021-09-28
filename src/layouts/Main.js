@@ -39,7 +39,7 @@ Main.defaultProps = {
   children: null,
   fullPage: false,
   title: null,
-  description: "Salim NEDJAM's personal website.",
+  description: 'Site web personnel de Salim NEDJAM.',
 };
 
 export default Main;

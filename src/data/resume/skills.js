@@ -20,6 +20,11 @@ const skills = [
     category: ['Languages', 'Operating Systems'],
   },
   {
+    title: 'QEMU',
+    competency: 3.5,
+    category: ['Operating Systems'],
+  },
+  {
     title: 'Javascript',
     competency: 3,
     category: ['Web Development', 'Languages', 'Javascript'],

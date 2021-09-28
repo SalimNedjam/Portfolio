@@ -1,5 +1,17 @@
 const positions = [
   {
+    position: 'Gandi',
+    company: 'Stage: Sécurisation de la migration des machines virtuelles sur QEMU',
+    daterange: 'Mars 2021 - Septembre 2021',
+    points: [
+      "Génération d'empreintes de machine virtuelle pour l'enregistrer dans la blockchain afin de sécuriser l'intégrité des données du transfert dans les cas suivants :",
+      'Migrations froides.',
+      'Migrations à chaud avec disque partagé.',
+      'Migrations à chaud sans disque partagé.',
+      'QEMU, BPF, XDP',
+    ],
+  },
+  {
     position: "Laboratoire d'informatique de Sorbonne Université (LIP6)",
     company: 'Projet de recherche: Modification de l\'ordonnanceur de Linux',
     link: 'https://github.com/SalimNedjam/MAScheduler',
@@ -17,7 +29,7 @@ const positions = [
     daterange: 'Juin 2020',
     points: [
       "Conception, réalisation et implémentation dans le kernel Linux d'un système de fichiers avec toutes fonctionnalités nécessaires.",
-      'C, Système de Fichier Virtuel, OS Linux, Programmation Kernel.',
+      'C, VFS, OS Linux, Programmation Kernel.',
     ],
   },
   {

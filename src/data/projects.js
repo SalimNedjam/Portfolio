@@ -1,6 +1,17 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'Sécurisation de la migration des machines virtuelles sur QEMU',
+    subtitle: 'Migration fingerprints',
+    image: '/images/projects/FINGERPRINT.png',
+    date: '2021',
+    desc:
+    "Génération d'empreintes de machine virtuelle pour l'enregistrer dans la blockchain afin de sécuriser l'intégrité des données du transfert dans les cas suivants :"
+    + 'Migrations froides.'
+    + 'Migrations à chaud avec disque partagé.'
+    + 'Migrations à chaud sans disque partagé.',
+  },
+  {
     title: 'MAScheduler',
     subtitle: 'Mutex Aware Scheduler',
     link: 'https://github.com/SalimNedjam/MAScheduler',

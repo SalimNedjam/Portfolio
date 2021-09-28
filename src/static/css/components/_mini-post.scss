@@ -9,7 +9,7 @@
   position: relative;
 
   .description {
-    position: absolute;
+    position: relative;
     padding: 0;
     bottom: 0;
     border-top: solid 1px _palette(border);
@@ -58,7 +58,7 @@
 
     &:hover {
       img {
-        @include vendor( 'transform', 'scale(1.05)');
+        @include vendor( 'transform', 'scale(0.99)');
       }
     }
   }

@@ -17,11 +17,11 @@ const SideBar = () => (
           className="skillbutton-active"
           type="button"
         >
-          <a href="/resume.pdf" download="SALIM_NEDJAM_CV.pdf">Télécharger le cv </a>
+          <a href={`${PUBLIC_URL}/resume.pdf`} download="SALIM_NEDJAM_CV.pdf">Télécharger le cv </a>
         </button>
         <br />
         <br />
-        <p><a href="mailto:nedjam.t.salim@gmail.com">nedjam.t.salim@gmail.com</a></p>
+        <p><a href="mailto:inbox@salimnedjam.fr">inbox@salimnedjam.fr</a></p>
       </header>
       <ContactIcons />
     </section>
